@@ -20,7 +20,7 @@ export class BookService {
 
   async createBook(book: Book) {
     try {
-      const data = await axios.post("http://localhost:8080/parcial/", book);
+      const data = await axios.post("http://localhost:8080/parcial/", JSON.stringify(book));
       return data.data;
     } catch (e) {
       console.log(e);

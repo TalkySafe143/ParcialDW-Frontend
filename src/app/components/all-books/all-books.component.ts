@@ -12,7 +12,7 @@ export class AllBooksComponent {
   constructor(
     private bookService: BookService
   ) {
-    bookService.getAllBooks().then(data => this.books = data).catch(e => console.error(e));
+    this.bookService.getAllBooks().then(data => this.books = data).catch(e => console.error(e));
   }
 
 }
