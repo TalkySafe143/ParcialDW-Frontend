@@ -30,6 +30,8 @@ export class CreateBookComponent {
     authorFame: new FormControl('')
   })
 
-  submitBook() {}
-  
+  submitBook() {
+
+  }
+
 }
