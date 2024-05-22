@@ -1,0 +1,4 @@
+export  enum BookType {
+    ENTRETAINMENT= 'ENTRETAINMENT',
+    ACADEMIC= 'ACADEMIC'
+}
